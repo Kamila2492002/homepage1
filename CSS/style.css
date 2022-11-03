@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background: rgba(206, 201, 201, 0.733);
+    max-width: 1000px;
+    margin: auto;
+    padding: 2px;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+.table__cell {
+    border: 1px solid #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__caption {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 30px 0px 10px 0px;
+}
+
+.table__cell--header {
+    background-color: rgba(102, 5, 109);
+    color: #ddd;
+    font-weight: normal;
+}
+
+.table__row {
+    background: rgb(183, 182, 182);
+}
+
+.table__row:hover {
+    background: rgb(135, 134, 134);
+}
+
+.section__containter {
+    overflow-x: auto;
+}
+
+.header__title {
+    background-color: rgba(102, 5, 109);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    padding: 15px 0px;
+}
+
+.navigation__item {
+    padding: 5px 0px;
+}
+
+.navigation {
+    list-style: none;
+    list-style-position: inside;
+    background-color: rgb(161 160 160);
+    padding: 20px 0px;
+    margin: 5px;
+    border: 2px #ccc solid;
+    text-align: center;
+}
+
+.navigation__link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.section__header {
+    color: rgb(202, 13, 177);
+    padding: 30px 0px 0px 0px;
+    text-decoration: underline;
+}
+
+.section__text {
+    padding: 30px 0px 0px 0px;
+}
+
+.section__photo {
+    width: 180px;
+    height: 250px;
+    box-shadow: 10px -10px 28px 3px #64707A;
+}
+
+.section {
+    padding: 25px;
+}
+
+.dark {
+    color: #eee;
+    background: #222;
+}
+
+.footer {
+    color: #eee;
+    background-color: rgb(126, 125, 125);
+    text-align: center;
+    margin: 50px auto;
+    padding: 10px 0px;
+}
